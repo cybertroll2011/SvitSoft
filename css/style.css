@@ -1,0 +1,20 @@
+/* remove default styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html,
+body{
+    font-family: "HelveticaNeueCyr";
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
